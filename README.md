@@ -87,5 +87,3 @@ ToastEase.warningToast(
 
 This package is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 ```
-
-Feel free to copy and paste this into your `README.md` file. If you need any further modifications or additional sections, just let me know!
