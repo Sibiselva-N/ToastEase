@@ -2,6 +2,7 @@ name: toast_ease
 description: "A new Flutter package project."
 version: 0.0.1
 homepage: "https://github.com/Sibiselva-N/ToastEase.git"
+license: MIT
 
 environment:
   sdk: ^3.5.3
