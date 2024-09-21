@@ -2,7 +2,7 @@ name: toast_ease
 description: >
   ToastEase: Customizable toast notifications for success, error, warning, and info. Flexible design, no external dependencies, easy integration into Flutter apps.
 
-version: 0.0.2
+version: 0.0.3
 homepage: "https://github.com/Sibiselva-N/ToastEase.git"
 license: MIT
 

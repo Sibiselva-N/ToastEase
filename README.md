@@ -1,3 +1,4 @@
+ 
 
 # ToastEase
 
@@ -34,6 +35,10 @@ import 'package:toast_ease/toast_ease.dart';
 
 ### Displaying a Success Toast
 
+![Success Toast](https://github.com/Sibiselva-N/ToastEase/blob/main/success.png?raw=true)
+
+This is a success toast with a customizable message and appearance.
+
 ```dart
 ToastEase.successToast(
   context: context,
@@ -42,6 +47,10 @@ ToastEase.successToast(
 ```
 
 ### Displaying an Error Toast
+
+![Error Toast](https://github.com/Sibiselva-N/ToastEase/blob/main/error.png?raw=true)
+
+This is an error toast with customizable error message and appearance.
 
 ```dart
 ToastEase.errorToast(
@@ -52,6 +61,10 @@ ToastEase.errorToast(
 
 ### Displaying a Warning Toast
 
+![Warning Toast](https://github.com/Sibiselva-N/ToastEase/blob/main/warning.png?raw=true)
+
+This is a warning toast with a customizable warning message and appearance.
+
 ```dart
 ToastEase.warningToast(
   context: context,
@@ -60,6 +73,10 @@ ToastEase.warningToast(
 ```
 
 ### Displaying an Info Toast
+
+![Info Toast](https://github.com/Sibiselva-N/ToastEase/blob/main/info.png?raw=true)
+
+This is an info toast with a customizable info message and appearance.
 
 ```dart
 ToastEase.infoToast(
@@ -86,3 +103,5 @@ ToastEase.warningToast(
 ### License
 
 This package is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+---
