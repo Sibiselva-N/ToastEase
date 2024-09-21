@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 /// A Calculator.
 class ToastEase {
   /// Returns [value] plus 1.
-  static int addOne(int value) => value + 1;
 
   static void warningToast(
       {required BuildContext context,
