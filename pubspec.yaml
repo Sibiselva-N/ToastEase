@@ -1,6 +1,6 @@
 name: toast_ease
 description: >
-  ToastEase is a Flutter package that provides customizable toast notifications for success, error, warning, and info messages. It offers a flexible design with no external dependencies, allowing you to easily integrate it into your Flutter applications.
+  ToastEase: Customizable toast notifications for success, error, warning, and info. Flexible design, no external dependencies, easy integration into Flutter apps.
 
 version: 0.0.1
 homepage: "https://github.com/Sibiselva-N/ToastEase.git"
