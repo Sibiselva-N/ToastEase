@@ -1,39 +1,91 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+# ToastEase
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A Flutter package to display customizable toast notifications for success, error, warning, and info messages.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- **Customizable Toasts**: Easily display success, error, warning, and info toasts with customizable colors and icons.
+- **No External Dependencies**: This package does not rely on any external dependencies.
+- **Flexible Design**: Modify the appearance and behavior of the toasts to fit your app's design.
 
-## Getting started
+## Getting Started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+### Installation
+
+Add the following to your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  toast_ease: ^1.0.0
+```
+
+Then, run `flutter pub get` to install the package.
+
+### Import the Package
+
+Import the package in your Dart file:
+
+```dart
+import 'package:toast_ease/toast_ease.dart';
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+### Displaying a Success Toast
 
 ```dart
-  ToastEase.successToast(context: context, msg: "This is Success Toast");
+ToastEase.successToast(
+  context: context,
+  msg: "This is Success Toast",
+);
 ```
 
-## Additional information
+### Displaying an Error Toast
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```dart
+ToastEase.errorToast(
+  context: context,
+  msg: "This is Error Toast",
+);
+```
+
+### Displaying a Warning Toast
+
+```dart
+ToastEase.warningToast(
+  context: context,
+  msg: "This is Warning Toast",
+);
+```
+
+### Displaying an Info Toast
+
+```dart
+ToastEase.infoToast(
+  context: context,
+  msg: "This is Info Toast",
+);
+```
+
+## Additional Information
+
+### Customization
+
+You can customize the color and title of the toasts:
+
+```dart
+ToastEase.warningToast(
+  context: context,
+  msg: "Custom warning message",
+  color: Colors.orange,
+  title: "Custom Warning",
+);
+```
+
+### License
+
+This package is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+```
+
+Feel free to copy and paste this into your `README.md` file. If you need any further modifications or additional sections, just let me know!
